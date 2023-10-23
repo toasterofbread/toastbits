@@ -1,6 +1,7 @@
 [submodule "themes/hugo-theme-monochrome"]
 	path = themes/hugo-theme-monochrome
 	url = https://github.com/toasterofbread/hugo-theme-monochrome
+	branch = main
 [submodule "themes/hugo-redirect"]
 	path = themes/hugo-redirect
 	url = https://github.com/gcc42/hugo-redirect.git
