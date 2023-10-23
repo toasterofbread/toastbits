@@ -14,10 +14,6 @@ figcaption {
     margin-bottom: 0.2rem !important;
 }
 
-.content-margin {
-    margin-top: 1rem !important;
-}
-
 .brand {
     a {
         font-size: 1.1em !important;
@@ -44,9 +40,8 @@ figcaption {
 
 code {
     display: block;
-    width: 100%;
-    background-color: black;
-    padding: 10px;
+    background-color: var(--color-background-inline-code);
+    padding: 8px;
     font-size: 0.9em;
 }
 
@@ -79,7 +74,7 @@ html[data-theme="dark"] {
     --color-background: var(--ctp-mocha-mantle);
     --color-background-hover: var(--ctp-mocha-surface1);
     --color-background-overlay: var(--ctp-mocha-base);
-    --color-background-inline-code: var(--ctp-mocha-surface1);
+    --color-background-inline-code: var(--ctp-mocha-crust);
     --color-background-card: var(--ctp-mocha-base);
     --color-background-mark: #fff1a7;
     --color-link: var(--ctp-mocha-red);

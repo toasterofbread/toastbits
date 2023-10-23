@@ -5,11 +5,12 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
 [params]
+color_scheme = "dark"
 enable_toc = true
 enable_collapsible_toc = true
 enable_collapsible_changelogs = true
 enable_site_search = true
-color_scheme = "dark"
+enable_zooming_js = false
 
 [languages]
   [languages.en]
@@ -35,7 +36,7 @@ color_scheme = "dark"
   
     [languages.en.params]
         author = "Talo Halton"
-        footer = "Built with 愛 using <a href='https://github.com/gohugoio/hugo'>Hugo</a>, <a href='https://github.com/kaiiiz/hugo-theme-monochrome'>Monochrome</a>, and <a href='https://github.com/catppuccin/catppuccin'>Catppuccin</a>"
+        footer = "Built with 愛 using <a href='https://github.com/gohugoio/hugo'>Hugo</a>, <a href='https://github.com/kaiiiz/hugo-theme-monochrome'>Monochrome</a>, and <a href='https://github.com/catppuccin/catppuccin'>Catppuccin</a>."
   
     [[languages.en.menu.navbar]]
       identifier = "github"
@@ -64,7 +65,7 @@ color_scheme = "dark"
 
     [languages.ja.params]
         author = "ホートン太郎"
-        footer = "Built with 愛 using <a href='https://github.com/gohugoio/hugo'>Hugo</a> and <a href='https://github.com/kaiiiz/hugo-theme-monochrome'>Monochrome</a>"
+        footer = "Built with 愛 using <a href='https://github.com/gohugoio/hugo'>Hugo</a> and <a href='https://github.com/kaiiiz/hugo-theme-monochrome'>Monochrome</a>."
 
     [[languages.en.menu.navbar]]
       identifier = "github"
