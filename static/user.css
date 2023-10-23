@@ -1,7 +1,7 @@
-@import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
+@import url("https://unpkg.com/@catppuccin/palette/css/catppuccin.css");
 
 * {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: "JetBrains Mono", monospace;
     line-height: 140%;
 }
 
@@ -46,6 +46,9 @@ code {
 }
 
 html[data-theme="light"] {
+    --color-text-light: var(--ctp-mocha-text);
+    --color-text-dark: var(--ctp-latte-text);
+
     --color-text: var(--ctp-latte-text);
     --color-text-secondary: var(--ctp-latte-subtext1);
     --color-text-footer: var(--ctp-latte-subtext0);
@@ -55,8 +58,8 @@ html[data-theme="light"] {
     --color-background: var(--ctp-latte-mantle);
     --color-background-hover: var(--ctp-latte-surface1);
     --color-background-overlay: var(--ctp-latte-base);
-    --color-background-inline-code: var(--ctp-latte-surface1);
-    --color-background-card: var(--ctp-latte-base);
+    --color-background-inline-code: var(--ctp-latte-crust);
+    --color-background-card: var(--ctp-latte-crust);
     --color-link: var(--ctp-latte-red);
     --color-navbar-item-inactive: var(--ctp-latte-subtext0);
     --color-navbar-item-active: var(--ctp-latte-red);
@@ -65,7 +68,9 @@ html[data-theme="light"] {
 }
 
 html[data-theme="dark"] {
-    --color-text: var(--ctp-mocha-text);
+    --color-text-light: var(--ctp-mocha-text);
+    --color-text-dark: var(--ctp-latte-text);
+
     --color-text-secondary: var(--ctp-mocha-subtext1);
     --color-text-footer: var(--ctp-mocha-subtext0);
     --color-text-title: var(--ctp-mocha-maroon);
@@ -75,10 +80,10 @@ html[data-theme="dark"] {
     --color-background-hover: var(--ctp-mocha-surface1);
     --color-background-overlay: var(--ctp-mocha-base);
     --color-background-inline-code: var(--ctp-mocha-crust);
-    --color-background-card: var(--ctp-mocha-base);
-    --color-background-mark: #fff1a7;
+    --color-background-card: var(--ctp-mocha-crust);
     --color-link: var(--ctp-mocha-red);
     --color-navbar-item-inactive: var(--ctp-mocha-subtext0);
     --color-navbar-item-active: var(--ctp-mocha-red);
     --color-navbar-item-in-section: var(--ctp-mocha-maroon)
+    --color-background-mark: #fff1a7;
 }
