@@ -1,4 +1,4 @@
-baseURL = 'http://localhost'
+baseURL = 'https://toastbits.dev'
 languageCode = "en-GB"
 theme = ["hugo-redirect", "hugo-theme-monochrome"]
 defaultContentLanguage = "en"
@@ -26,7 +26,7 @@ color_scheme = "dark"
         </div>
         
         <div style="font-size: 0.7em;">
-          @toasterofbread.dev
+          @toastbits.dev
         </div>
         </div>
     """
