@@ -1,6 +1,6 @@
 baseURL = 'http://localhost'
 languageCode = "en-GB"
-theme = "hugo-theme-monochrome"
+theme = ["hugo-redirect", "hugo-theme-monochrome"]
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
@@ -17,7 +17,20 @@ color_scheme = "dark"
     languageDirection = 'ltr'
     languageName = 'English'
     title = "toasterofbread"
-    navbar_title = '<div style="display: flex; align-items: center;">toasterofbread <a href="https://github.com/toasterofbread"><img src="/github-mark-white.svg" height=24px style="padding-left: 10px; margin: auto; display: block;"></img></a></div>'
+    navbar_title = """\
+      <div style="display: flex; align-items: center;">
+        ~$&nbsp;
+        
+        <div style="color: var(--color-text-title);">
+          toaster
+        </div>
+        
+        <div style="font-size: 0.7em;">
+          @toasterofbread.dev
+        </div>
+        </div>
+    """
+    #navbar_html = '<a href="https://github.com/toasterofbread"><img src="/github-mark-white.svg" height=15px style="margin: auto; display: block;"></img></a>'
     weight = 2
   
     [languages.en.params]
@@ -25,10 +38,22 @@ color_scheme = "dark"
         footer = "Built with 愛 using <a href='https://github.com/gohugoio/hugo'>Hugo</a>, <a href='https://github.com/kaiiiz/hugo-theme-monochrome'>Monochrome</a>, and <a href='https://github.com/catppuccin/catppuccin'>Catppuccin</a>"
   
     [[languages.en.menu.navbar]]
+      identifier = "github"
+      name = "/github"
+      url = "/github"
+      weight = 1
+
+    [[languages.en.menu.navbar]]
         identifier = "projects"
-        name = "Projects"
+        name = "/projects"
         url = "/en/projects/"
-        weight = 1
+        weight = 2
+
+    [[languages.en.menu.navbar]]
+      identifier = "about"
+      name = "/about"
+      url = "/en/about"
+      weight = 3
 
   [languages.ja]
     languageCode = 'ja-JP'
@@ -41,8 +66,14 @@ color_scheme = "dark"
         author = "ホートン太郎"
         footer = "Built with 愛 using <a href='https://github.com/gohugoio/hugo'>Hugo</a> and <a href='https://github.com/kaiiiz/hugo-theme-monochrome'>Monochrome</a>"
 
+    [[languages.en.menu.navbar]]
+      identifier = "github"
+      name = "/github"
+      url = "/github"
+      weight = 1
+
     [[languages.ja.menu.navbar]]
         identifier = "projects"
         name = "作品"
         url = "/ja/projects/"
-        weight = 1
+        weight = 2

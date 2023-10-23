@@ -1,27 +1,79 @@
 @import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
 
+* {
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 140%;
+}
+
+main {
+    min-width: 80%;
+}
+
+figcaption {
+    margin-top: 0.0rem !important;
+    margin-bottom: 0.2rem !important;
+}
+
+.content-margin {
+    margin-top: 1rem !important;
+}
+
+.brand {
+    a {
+        font-size: 1.1em !important;
+        font-weight: normal !important;
+    }
+}
+
+#navbar {
+    margin: -0.5rem 0;
+    
+    a {
+        font-size: 0.9em !important;
+    }
+
+    .navbar-item {
+        border-bottom: 0px solid transparent !important;
+    }
+}
+
+.bookcase-layout .bookcase-item img,
+.bookcase-layout .bookcase-item .bookcase-item-overlay {
+    height: fit-content;
+}
+
+code {
+    display: block;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
 html[data-theme="light"] {
-    --color-text: #171717;
-    --color-text-secondary: #737373;
-    --color-text-footer: #737373;
-    --color-border: #d4d4d4;
-    --color-border-collapsible-menu: #e5e5e5;
-    --color-background: #fff;
-    --color-background-hover: #f7f7f7;
-    --color-background-overlay: #ededed;
-    --color-background-inline-code: #f5f5f5;
-    --color-background-card: #fff;
+    --color-text: var(--ctp-latte-text);
+    --color-text-secondary: var(--ctp-latte-subtext1);
+    --color-text-footer: var(--ctp-latte-subtext0);
+    --color-text-title: var(--ctp-mocha-red);
+    --color-border: var(--ctp-latte-red);
+    --color-border-collapsible-menu: var(--ctp-latte-surface2);
+    --color-background: var(--ctp-latte-mantle);
+    --color-background-hover: var(--ctp-latte-surface1);
+    --color-background-overlay: var(--ctp-latte-base);
+    --color-background-inline-code: var(--ctp-latte-surface1);
+    --color-background-card: var(--ctp-latte-base);
+    --color-link: var(--ctp-latte-red);
+    --color-navbar-item-inactive: var(--ctp-latte-subtext0);
+    --color-navbar-item-active: var(--ctp-latte-red);
+    --color-navbar-item-in-section: var(--ctp-latte-maroon);
     --color-background-mark: #fff1a7;
-    --color-link: #2563eb;
-    --color-navbar-item-inactive: #a3a3a3;
-    --color-navbar-item-active: #171717;
-    --color-navbar-item-in-section: #525252; 
 }
 
 html[data-theme="dark"] {
     --color-text: var(--ctp-mocha-text);
     --color-text-secondary: var(--ctp-mocha-subtext1);
     --color-text-footer: var(--ctp-mocha-subtext0);
+    --color-text-title: var(--ctp-mocha-maroon);
     --color-border: var(--ctp-mocha-red);
     --color-border-collapsible-menu: var(--ctp-mocha-surface2);
     --color-background: var(--ctp-mocha-mantle);
@@ -33,13 +85,5 @@ html[data-theme="dark"] {
     --color-link: var(--ctp-mocha-red);
     --color-navbar-item-inactive: var(--ctp-mocha-subtext0);
     --color-navbar-item-active: var(--ctp-mocha-red);
-    --color-navbar-item-in-section: var(--ctp-mocha-maroon) 
-}
-
-* {
-    /* font-family: monospace; */
-}
-
-.bookcase-layout .bookcase-item img, .bookcase-layout .bookcase-item .bookcase-item-overlay {
-    height: fit-content;
+    --color-navbar-item-in-section: var(--ctp-mocha-maroon)
 }
