@@ -3,6 +3,7 @@ title: "Godot Metroid Engine"
 description: "A custom Metroid engine built in the Godot engine. No longer in development, but I will probably come back to this some day."
 source_code: "https://github.com/toasterofbread/godot-metroid-engine"
 links: [
+    { "icon": "fa-solid fa-f", "link": "https://github.com/spectreseven1138-alt/MPF" },
     { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/godot-metroid-engine" }
 ]
 
@@ -15,11 +16,10 @@ start_month: 4
 end_year: 2021
 end_month: 9
 
-# bookcase_images: ["/projects/spmp/0.png", "/projects/spmp/1.png", "/projects/spmp/2.png"]
+bookcase_images: ["/projects/gdmengine/0.jpg", "/projects/gdmengine/1.jpg", "/projects/gdmengine/2.jpg", "/projects/gdmengine/3.jpg"]
 bookcase_background_src: "/projects/gdmengine/background.svg"
 bookcase_accent_colour_light: "#ed9966"
 bookcase_accent_colour_dark: "#6b1c0c"
-
 ---
 
 
