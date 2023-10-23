@@ -10,14 +10,14 @@ enable_toc = true
 enable_collapsible_toc = true
 enable_collapsible_changelogs = true
 enable_site_search = true
-enable_zooming_js = false
+enable_zooming_js = true
 
 [languages]
   [languages.en]
     languageCode = 'en-GB'
     languageDirection = 'ltr'
     languageName = 'English'
-    title = "toasterofbread"
+    title = "ToastBits"
     navbar_title = """\
       <div style="display: flex; align-items: center;">
         ~$&nbsp;
@@ -39,9 +39,44 @@ enable_zooming_js = false
         footer = "Built with 愛 using <a href='https://github.com/gohugoio/hugo'>Hugo</a>, <a href='https://github.com/kaiiiz/hugo-theme-monochrome'>Monochrome</a>, and <a href='https://github.com/catppuccin/catppuccin'>Catppuccin</a>."
   
     [[languages.en.menu.navbar]]
+      identifier = "root"
+      name = "root"
+      pageRef = "/en/"
+      weight = 1
+
+    [[languages.en.menu.navbar]]
+        identifier = "projects"
+        name = "/projects"
+        pageRef = "/en/projects/"
+        weight = 2
+
+    [[languages.en.menu.navbar]]
+      identifier = "about"
+      name = "/about"
+      pageRef = "/en/about"
+      weight = 3
+  
+    [[languages.en.menu.navbar]]
       identifier = "github"
       name = "/github"
-      url = "/github"
+      pageRef = "/github"
+      weight = 4
+
+  [languages.ja]
+    languageCode = 'ja-JP'
+    languageDirection = 'ltr'
+    languageName = '日本語'
+    title = 'ToastBits'
+    weight = 2
+
+    [languages.ja.params]
+        author = "ホートン太郎"
+        footer = "Built with 愛 using <a href='https://github.com/gohugoio/hugo'>Hugo</a> and <a href='https://github.com/kaiiiz/hugo-theme-monochrome'>Monochrome</a>."
+
+    [[languages.en.menu.navbar]]
+      identifier = "root"
+      name = "root"
+      url = "/"
       weight = 1
 
     [[languages.en.menu.navbar]]
@@ -55,26 +90,9 @@ enable_zooming_js = false
       name = "/about"
       url = "/en/about"
       weight = 3
-
-  [languages.ja]
-    languageCode = 'ja-JP'
-    languageDirection = 'ltr'
-    languageName = '日本語'
-    title = 'toasterofbread'
-    weight = 2
-
-    [languages.ja.params]
-        author = "ホートン太郎"
-        footer = "Built with 愛 using <a href='https://github.com/gohugoio/hugo'>Hugo</a> and <a href='https://github.com/kaiiiz/hugo-theme-monochrome'>Monochrome</a>."
-
+  
     [[languages.en.menu.navbar]]
       identifier = "github"
       name = "/github"
       url = "/github"
-      weight = 1
-
-    [[languages.ja.menu.navbar]]
-        identifier = "projects"
-        name = "作品"
-        url = "/ja/projects/"
-        weight = 2
+      weight = 4
