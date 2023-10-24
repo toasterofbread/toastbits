@@ -46,7 +46,7 @@
 </style>
 
 <div id="heading">
-  <div id="title">Talo Halton<div id="cursor">_</div></div>
+  <div id="title">toasterofbread<div id="cursor">_</div></div>
 </div>
 
 {{< /rawhtml >}}
