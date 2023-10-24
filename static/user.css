@@ -1,6 +1,6 @@
 @import url("https://unpkg.com/@catppuccin/palette/css/catppuccin.css");
 
-* {
+*:not(i) {
     font-family: "JetBrains Mono", monospace !important;
     line-height: 140%;
 }
