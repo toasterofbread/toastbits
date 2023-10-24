@@ -3,8 +3,8 @@ title: "Godot Metroid Engine"
 description: "A custom Metroid engine built in the Godot engine. No longer in development, but I will probably come back to this some day."
 source_code: "https://github.com/toasterofbread/godot-metroid-engine"
 links: [
-    { "icon": "fa-solid fa-f", "link": "https://github.com/spectreseven1138-alt/MPF" },
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/godot-metroid-engine" }
+    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/godot-metroid-engine" },
+    { "icon": "fa-solid fa-f", "link": "https://github.com/spectreseven1138-alt/MPF" }
 ]
 
 tags:

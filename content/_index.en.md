@@ -7,21 +7,117 @@
 </picture>
 {{< /rawhtml >}} -->
 
-# Talo Halton
+`$ whoami`
 
-> I make stuff for fun and put it on the Internet. I've been programming on and off (but mostly on) since teaching myself Python in 2019.
+{{< rawhtml >}}
 
-#### Skills
-- Kotlin
-- Python
-- C++
-- Godot
+<style>
+  #heading {
+    margin-top: -10px;
 
-#### 
+    * {
+      font-family: monospace !important;
+    }
+    
+    p {
+      margin-bottom: -5px;
+      opacity: 75%;
+    }
+  }
+
+  #title {
+    display: flex;
+    font-size: 3em;
+  }
+
+  #cursor {
+    animation: cursorAnimation 3s infinite;
+    visibility: hidden;
+  }
+
+  @keyframes cursorAnimation {
+    50% {
+      visibility: visible;
+    }
+    51% {
+      visibility: hidden;
+    }
+  }
+</style>
+
+<div id="heading">
+  <div id="title">Talo Halton<div id="cursor">_</div></div>
+</div>
+
+{{< /rawhtml >}}
+
+I make stuff for fun and put it on the Internet. I've been programming on and off (but mostly on) since teaching myself Python in 2019.
+
+{{< rawhtml >}}
+<style>
+  #row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    
+    div {
+      padding-right: 100px;
+    }
+  }
+</style>
+
+<br>
+<h1>Skills</h1>
+<br>
+
+<div id="row">
+  <div>
+    <h4>Languages</h4>
+    <ul>
+      <li><a href="projects?tag=Kotlin">Kotlin</a></li>
+      <li><a href="projects?tag=Python">Python</a></li>
+      <li><a href="projects?tag=Godot">GDScript</a></li>
+      <li><a href="projects?tag=C%2B%2B">C++</a></li>
+      <li><a href="projects?tag=Lua">Lua</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h4>Frameworks</h4>
+    <ul>
+      <li><a href="projects?tag=Godot">Godot Engine</a></li>
+      <li><a href="projects?tag=Jetpack+Compose">Jetpack Compose</a></li>
+      <li><a href="projects?tag=Raylib">Raylib</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h4>Other technologies</h4>
+    <ul>
+      <li><a href="projects?tag=GCloud">Google Cloud & Firebase</a></li>
+      <li><a href="projects?tag=VR">Virtual reality</a></li>
+      <li><a href="projects?tag=Discord">Discord</a></li>
+      <li><a href="projects?tag=Android">Android</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h4>Spoken languages</h4>
+    <ul>
+      <li>English (fluent)</li>
+      <li><a href="projects?tag=Japanese">Japanese</a> (fluent)</li>
+    </ul>
+  </div>
+</div>
+
+{{< /rawhtml >}}
+
+{{< bookcase section="/projects" row=true preview=true >}}
 
 ```
 $ pwd
-/home/talohalton
+/home/toaster
 
 $ neofetch
                    -`                    toaster@toastbits.dev

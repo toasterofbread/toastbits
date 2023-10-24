@@ -73,7 +73,7 @@ html[data-theme="dark"] {
 
     --color-text-secondary: var(--ctp-mocha-subtext1);
     --color-text-footer: var(--ctp-mocha-subtext0);
-    --color-text-title: var(--ctp-mocha-maroon);
+    --color-text-title: var(--ctp-mocha-red);
     --color-border: var(--ctp-mocha-red);
     --color-border-collapsible-menu: var(--ctp-mocha-surface2);
     --color-background: var(--ctp-mocha-mantle);

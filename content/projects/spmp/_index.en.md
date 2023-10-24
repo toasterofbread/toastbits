@@ -4,13 +4,14 @@ description: "A YouTube Music client with a focus on language and metadata custo
 source_code: "https://github.com/toasterofbread/spmp"
 
 links: [
-    { "icon": "fa-brands fa-discord", "link": "https://discord.gg/B4uY4FkkJ3" },
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/spmp" }
+    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/spmp" },
+    { "icon": "fa-solid fa-cloud", "link": "https://github.com/toasterofbread/spmp-server" },
+    { "icon": "fa-brands fa-discord", "link": "https://discord.gg/B4uY4FkkJ3" }
 ]
 tags:
-- Android
 - Kotlin
 - Jetpack Compose
+- Android
 
 start_year: 2022
 start_month: 8
