@@ -14,8 +14,10 @@
 <style>
   #heading {
     margin-top: -10px;
+    display: flex;
 
     * {
+      font-size: 3em;
       font-family: monospace !important;
     }
     
@@ -23,11 +25,6 @@
       margin-bottom: -5px;
       opacity: 75%;
     }
-  }
-
-  #title {
-    display: flex;
-    font-size: 3em;
   }
 
   #cursor {
@@ -46,7 +43,8 @@
 </style>
 
 <div id="heading">
-  <div id="title">Talo Halton<div id="cursor">_</div></div>
+  <div id="title">Talo Halton</div>
+  <div id="cursor">_</div>
 </div>
 
 {{< /rawhtml >}}
@@ -156,24 +154,5 @@ $ fortune
 ```
 
 {{< rawhtml >}}
-<script>
-  async function getFortune() {
-    const response = await fetch("https://helloacm.com/api/fortune/")
-    const fortune = await response.json()
-    
-    const code_blocks = document.querySelectorAll("code");
-
-    for (let i = 0; i < code_blocks.length; i++) {
-      const block = code_blocks.item(i)
-      if (!block.innerHTML.endsWith("$ fortune\n")) {
-        continue
-      }
-
-      block.innerHTML += fortune
-      break
-    }
-  }
-
-  getFortune()
-</script>
+<script src="/scripts/index.js"></script>
 {{< /rawhtml >}}
