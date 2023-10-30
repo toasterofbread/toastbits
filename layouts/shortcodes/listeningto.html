@@ -1,0 +1,23 @@
+<script src="/scripts/color-thief.umd.js"></script>
+<script src="/scripts/listeningto.js"></script>
+<style>@import url("/page/listeningto/listeningto.css")</style>
+
+<template class="listeningto">
+    <div class="content">
+        <img crossorigin="anonymous" id="thumbnail"></img>
+        <div id="main-column">
+            <div id="top-row">
+                <p id="label">Currently listening to</p>
+                <div style="display: flex; gap"><p id="age"></p>m ago</div>
+                </div>
+            <a id="url"><p id="title"></p></a>
+            <div id="bottom-row">
+                <a id="artist_url"><p id="artist"></p></a>
+                <a id="client_url"><img id="client_icon"></img></a>
+            </div>
+        </div>
+    </div>
+</template>
+
+<template class="listeningtonull">
+</template>

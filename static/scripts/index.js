@@ -3,8 +3,8 @@ const TITLE_CYCLE_DELAY_MS = 10000
 const TITLE_CYCLE_TYPING_DELAY = 300
 const TITLE_CYCLE_DELETING_DELAY = 50
 
-const delay = (delayInms) => {
-    return new Promise(resolve => setTimeout(resolve, delayInms));
+const delay = (delay_ms) => {
+    return new Promise(resolve => setTimeout(resolve, delay_ms));
 };
 
 async function getFortune() {
