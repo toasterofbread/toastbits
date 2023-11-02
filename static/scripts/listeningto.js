@@ -92,14 +92,10 @@ async function applyCurrentStatus() {
     }
 }
 
-const delay = (delay_ms) => {
-    return new Promise(resolve => setTimeout(resolve, delay_ms));
-};
-
 async function pollStatus() {
     while (true) {
         applyCurrentStatus()
-        await delay(1000 * 60 * 2)
+        await new Promise(resolve => setTimeout(resolve, 1000 * 60 * 2));
     }
 }
 
