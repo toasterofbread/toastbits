@@ -1,0 +1,68 @@
+{{ $title := .Page.Params.title }}
+{{ $description := .Page.Params.description }}
+{{ $source_code := .Page.Params.source_code }}
+{{ $images := .Page.Params.bookcase_images }}
+{{ $background_src := .Page.Params.bookcase_background_src }}
+{{ $accent_light := .Page.Params.bookcase_accent_colour_light }}
+{{ $accent_dark := .Page.Params.bookcase_accent_colour_dark }}
+
+{{ with $images }}
+<style>
+html[data-theme="light"] {
+    --accent-colour: {{ $accent_dark }}
+}
+
+html[data-theme="dark"] {
+    --accent-colour: {{ $accent_light }}
+}
+
+.projectheader {
+    display: flex;
+    gap: 20px;
+    
+    h1 {
+        font-size: 2.2em;
+        color: var(--accent-colour);
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        background: url('{{ $background_src }}');
+        background-size: cover; background-position: center; background-repeat: no-repeat;
+        border-radius: 10px;
+        padding: 10px;
+        width: 40%;
+    }
+
+    .images {
+        width: 60%;
+        display: flex;
+        flex-flow: row;
+        overflow-x: scroll;
+
+        gap: 10px;
+        height: 400px;
+        border-radius: 10px;
+        scrollbar-color: {{ $accent_light }} transparent;
+    }
+}
+</style>
+
+<div class="projectheader">
+    <div class="content">
+        <h1>{{ $title }}</h1>
+        <p>{{ $description }}</p>
+    </div>
+        
+    <div class="images">
+        {{ range . }}
+        <img src="{{ . }}">
+        {{ end }}
+    </div>
+</div>
+{{ end }}
