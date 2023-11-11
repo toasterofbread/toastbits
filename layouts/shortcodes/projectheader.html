@@ -1,68 +1,274 @@
+{{ $hl := .Page.Params.hl }}
 {{ $title := .Page.Params.title }}
 {{ $description := .Page.Params.description }}
 {{ $source_code := .Page.Params.source_code }}
 {{ $images := .Page.Params.bookcase_images }}
 {{ $background_src := .Page.Params.bookcase_background_src }}
+{{ $tags := .Page.Params.tags }}
+{{ $links := .Page.Params.links }}
+{{ $icon_url := .Page.Params.icon_url }}
+{{ $github_user := .Page.Params.github_user }}
+{{ $github_repo := .Page.Params.github_repo }}
+
 {{ $accent_light := .Page.Params.bookcase_accent_colour_light }}
 {{ $accent_dark := .Page.Params.bookcase_accent_colour_dark }}
 
-{{ with $images }}
+<script src="/scripts/projectheader.js" data-user="{{ $github_user }}" data-repo="{{ $github_repo }}"></script>
+
 <style>
 html[data-theme="light"] {
-    --accent-colour: {{ $accent_dark }}
+    --accent-colour: {{ $accent_dark }};
+    --on-accent-colour: white;
+    --accent-colour-reverse: {{ $accent_light }};
 }
 
 html[data-theme="dark"] {
-    --accent-colour: {{ $accent_light }}
+    --accent-colour: {{ $accent_light }};
+    --on-accent-colour: black;
+    --accent-colour-reverse: {{ $accent_dark }};
 }
 
 .projectheader {
     display: flex;
-    gap: 20px;
-    
+    gap: 10px;
+    flex-direction: column;
+
+    .header {
+        display: flex; 
+        gap: 20px; 
+        align-items: center;
+        overflow-x: scroll;
+    }
+
+    .header-column {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%; 
+        margin-bottom: 15px;
+    }
+
+    .title-row {
+        display: flex;
+
+        .repo-values {
+            display: flex;
+            margin-left: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            gap: 15px;
+            
+            .repo-value {
+                color: var(--accent-colour) !important;
+
+                display: flex;
+                gap: 5px;
+                align-items: center;
+                opacity: 40%;
+            }
+        }
+    }
+
     h1 {
-        font-size: 2.2em;
+        font-size: 3em;
         color: var(--accent-colour);
     }
 
     p {
-        font-size: 1.2em;
+        font-size: 1em;
+    }
+
+    details {
+        summary {
+            font-size: 1.3em;
+            opacity: 75%;
+        }
+
+        div {
+            margin-top: 20px;
+        }
+    }
+
+    /* https://css-generators.com/wavy-shapes/ */
+    .wave {
+        height: 15px;
+        left: 100px;
+        background-color: var(--accent-colour);
+        opacity: 15%;
+        
+        margin-left: -5.5%;
+        margin-right: -5.5%;
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+        --mask:
+            radial-gradient(27.42px at 50% calc(100% + 21.75px),#0000 calc(99% - 2px),#000 calc(101% - 2px) 99%,#0000 101%) calc(50% - 30px) calc(50% - 8.5px + .5px)/60px 17px repeat-x,
+            radial-gradient(27.42px at 50% -21.75px,#0000 calc(99% - 2px),#000 calc(101% - 2px) 99%,#0000 101%) 50% calc(50% + 8.5px)/60px 17px repeat-x;
+        -webkit-mask: var(--mask);
+                mask: var(--mask);
     }
 
     .content {
-        display: flex;
-        flex-direction: column;
-        background: url('{{ $background_src }}');
-        background-size: cover; background-position: center; background-repeat: no-repeat;
         border-radius: 10px;
+        border-color: var(--accent-colour);
+        border-style: solid;
         padding: 10px;
         width: 40%;
     }
 
+    .info-row {
+        display: flex;
+        gap: 10px;
+        row-gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        gap: 10px;
+        margin-left: auto;
+
+        .button {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            white-space: nowrap;
+
+            border-radius: 10px;
+            font-size: 15px;
+            height: 20px;
+            
+            background-color: var(--color-background-card);
+            background-size: 20px, 20px;
+            padding: 5px 10px 5px 10px;
+            text-align: center;
+
+            * {
+                color: var(--accent-colour)
+            }
+        }
+    }
+    
+    .tags {
+        display: flex;
+        flex-flow: row;
+        white-space: nowrap;
+        gap: 10px;
+
+        * {
+            font-size: 0.9em;
+            color: var(--on-accent-colour);
+        }
+        
+        i {
+            margin: auto;
+            color: var(--accent-colour);
+        }
+
+        .tag {
+            background: var(--accent-colour);
+            
+            padding: 5px;
+            border-radius: 3px;
+        }
+    }
+
     .images {
-        width: 60%;
         display: flex;
         flex-flow: row;
         overflow-x: scroll;
 
-        gap: 10px;
-        height: 400px;
-        border-radius: 10px;
+        gap: 20px;
+        height: 500px;
         scrollbar-color: {{ $accent_light }} transparent;
     }
 }
 </style>
 
 <div class="projectheader">
-    <div class="content">
-        <h1>{{ $title }}</h1>
-        <p>{{ $description }}</p>
-    </div>
-        
-    <div class="images">
-        {{ range . }}
-        <img src="{{ . }}">
+    <div class="header">
+        {{ if $icon_url }}
+            <img src={{ $icon_url }} style="max-height: 110px; margin: 0;">
         {{ end }}
+
+        <div class="header-column">
+            <div class="title-row">
+                <h1>{{ $title }}</h1>
+
+                {{ if $github_repo }}
+                    <div class="repo-values">
+                        <template class="repo-value-template" data-key="open_issues" data-url="https://github.com/{{ $github_user }}/{{ $github_repo }}/issues">
+                            <a class="repo-value">
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                                <div class="value"></div>
+                            </a>
+                        </template>
+    
+                        <template class="repo-value-template" data-key="stargazers_count" data-url="https://github.com/{{ $github_user }}/{{ $github_repo }}/stargazers">
+                            <a class="repo-value">
+                                <i class="fa-regular fa-star"></i>
+                                <div class="value"></div>
+                            </a>
+                        </template>
+    
+                        <template class="repo-value-template" data-key="license,spdx_id">
+                            <a class="repo-value">
+                                <i class="fa-solid fa-scale-balanced"></i>
+                                <div class="value"></div>
+                            </a>
+                        </template>
+                    </div>
+                {{ end }}
+            </div>
+            
+            <div class="info-row">
+                <div class="tags">
+                    {{ with $tags }}
+                        <i class="fa-solid fa-tags"></i>
+            
+                        {{ range . }}
+                        
+                        <div class="tag">
+                            <a href="/{{ $hl }}/projects?tag={{ . }}">{{ . }}</a>
+                        </div>
+            
+                        {{ end }}
+                    {{ end }}
+                </div>
+        
+                {{ with $links }}
+                    <div class="buttons">
+                        {{ range . }}
+                        <a href="{{ .link }}">
+                            <div class="button">
+                                <i class="{{ .icon }}"></i>
+                                {{ if .label }}
+                                    <p>{{ .label }}</p>
+                                {{ end }}
+                            </div>
+                        </a>
+                        {{ end }}
+                    </div>
+                {{ end }}
+            </div>
+        </div>
     </div>
+
+    <p>{{ $description }}</p>
+    
+    {{ with $images }}
+    <details>
+        <summary>Images</summary>
+        <div class="images">
+            {{ range . }}
+            <img src="{{ . }}">
+            {{ end }}
+        </div>
+    </details>
+    {{ end }}
+
+    <div class="wave"></div>
 </div>
-{{ end }}

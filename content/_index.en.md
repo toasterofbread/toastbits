@@ -1,5 +1,23 @@
----
----
++++
+[[cascade]]
+hl = "en"
+github_user = "toasterofbread"
++++
+
+{{< rawhtml >}}
+<div style="display: flex; gap: 20px; margin-bottom: 50px;">
+  <img src="https://i.ytimg.com/vi/kB2QZ1A3Tyg/hqdefault.jpg" style="max-height: 130px; margin: 0; transform: scaleX(-1);">
+  <div>
+    <h3 style="margin-bottom: 10px;">Site under construction</h3>
+    TODO:
+    <ul style="font-size: 0.7em">
+      <li>More projects</li>
+      <li>More content for projects</li>
+      <li>Japanese translations</li>
+    </ul>
+  </div>
+</div>
+{{< /rawhtml>}}
 
 {{< listeningto >}}
 

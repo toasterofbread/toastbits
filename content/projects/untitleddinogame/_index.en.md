@@ -1,11 +1,13 @@
 ---
 title: "Untitled Dino Game"
 description: "A simple p2p infinite runner game I made in Godot in about a week. This was the first project I started with the intent to actually complete and release it."
-source_code: "https://github.com/toasterofbread/Untitled-Dino-Game"
-links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/Untitled-Dino-Game" }
-]
 
+github_repo: "Untitled-Dino-Game"
+source_code: "https://github.com/toasterofbread/Untitled-Dino-Game"
+
+links: [
+    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/Untitled-Dino-Game", "label": "Repository" }
+]
 tags:
 - Godot
 
@@ -21,8 +23,7 @@ bookcase_accent_colour_light: "#0bd404"
 bookcase_accent_colour_dark: "#012a01"
 ---
 
-
-# Untitled Dino Game
+{{< projectheader >}}
 
 A simple p2p infinite runner game I made in Godot in about a week.
 This was the first project I started with the intent to actually complete and release it.

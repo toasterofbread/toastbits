@@ -1,11 +1,13 @@
 ---
 title: "Game Off 2021 entry"
 description: "A project I started as an entry to the 2021 Github Game Off, involving an in-game scripting language with basic but working logic, functions, and variables."
-source_code: "https://github.com/toasterofbread/Game-Off-2021"
-links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/Game-Off-2021" }
-]
 
+github_repo: "Game-Off-2021"
+source_code: "https://github.com/toasterofbread/Game-Off-2021"
+
+links: [
+    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/Game-Off-2021", "label": "Repository" }
+]
 tags:
 - Godot
 
@@ -21,8 +23,7 @@ bookcase_accent_colour_light: "#737a85"
 bookcase_accent_colour_dark: "#2c2a32"
 ---
 
-
-# Game Off 2021 entry
+{{< projectheader >}}
 
 A project I started as an entry to the 2021 Github Game Off, involving an in-game scripting language.
 Implementing a language in GDScript was a lot harder than I had expected, but I was able to get basic logic, functions, and variables working.

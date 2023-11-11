@@ -1,12 +1,14 @@
 ---
-title: "ToastBits.dev"
+title: "ToastBits"
 description: "My personal website. Features a list of my projects, among other things. Built with Hugo using a heavily modified version of the Monochrome theme."
-source_code: "https://github.com/toasterofbread/toastbits"
-links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/toastbits" },
-    { "icon": "fa-solid fa-globe", "link": "https://toastbits.dev" }
-]
 
+github_repo: "toastbits"
+source_code: "https://github.com/toasterofbread/toastbits"
+
+links: [
+    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/toastbits", "label": "Repository" },
+    { "icon": "fa-solid fa-globe", "link": "https://toastbits.dev", "label": "Website" }
+]
 tags:
 - Web
 - Hugo
@@ -23,16 +25,7 @@ bookcase_accent_colour_dark: "#470512"
 ---
 
 
-# ToastBits
-###### https://toastbits.dev
-
-
-{{< rawhtml >}}
-
-<br>
-
-{{< /rawhtml >}}
-
+{{< projectheader >}}
 
 My personal website. Features a list of my projects, among other things.
 

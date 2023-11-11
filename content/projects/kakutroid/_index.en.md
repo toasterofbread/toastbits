@@ -1,11 +1,13 @@
 ---
 title: "Kakutroid"
 description: "A Metroidvania with simple geometric graphics and Celeste-inspired movement. Another project I planned to finish and release but was never able to."
-source_code: "https://github.com/toasterofbread/Kakutroid"
-links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/Kakutroid" }
-]
 
+github_repo: "Kakutroid"
+source_code: "https://github.com/toasterofbread/Kakutroid"
+
+links: [
+    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/Kakutroid", "label": "Repository" }
+]
 tags:
 - Godot
 - Metroid
@@ -22,8 +24,7 @@ bookcase_accent_colour_light: "#01a5ab"
 bookcase_accent_colour_dark: "#083538"
 ---
 
-
-# Test
+{{< projectheader >}}
 
 A Metroidvania with simple geometric graphics and Celeste-inspired movement.
 Another project I planned to finish and release but was never able to, although this got much closer than Dino.

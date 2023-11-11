@@ -3,12 +3,15 @@ title: "SpMp"
 description: "A YouTube Music client I've been making since August 2022.
 I've implemented useful queue manipulation features, as well as language and metadata customisation options.
 Seeing poor song title translations on a daily basis in the official app and not being able to change them was a great motivator."
+
+github_repo: "spmp"
 source_code: "https://github.com/toasterofbread/spmp"
+icon_url: https://raw.githubusercontent.com/toasterofbread/spmp/main/metadata/en-US/images/icon.png
 
 links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/spmp" },
-    { "icon": "fa-brands fa-android", "link": "https://f-droid.org/en/packages/com.toasterofbread.spmp/" },
-    { "icon": "fa-brands fa-discord", "link": "https://discord.gg/B4uY4FkkJ3" }
+    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/spmp", "label": "Repository" },
+    { "icon": "fa-brands fa-android", "link": "https://f-droid.org/en/packages/com.toasterofbread.spmp/", "label": "F-Droid" },
+    { "icon": "fa-brands fa-discord", "link": "https://discord.gg/B4uY4FkkJ3", "label": "Discord server" }
 ]
 tags:
 - Kotlin
