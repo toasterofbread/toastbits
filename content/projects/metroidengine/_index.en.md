@@ -18,12 +18,13 @@ end_year: 2020
 end_month: 6
 publishdate: 2020-06-01
 
-bookcase_images: ["/projects/metroidengine/0.gif"]
-bookcase_background_src: "/projects/metroidengine/background.svg"
-bookcase_accent_colour_light: "#ed9966"
-bookcase_accent_colour_dark: "#6b1c0c"
+images: ["/projects/metroidengine/0.gif"]
+background_image: "/projects/metroidengine/background.svg"
+accent_colour_light: "#ed9966"
+accent_colour_dark: "#6b1c0c"
 ---
 
+{{< projecttheme >}}
 {{< projectheader >}}
 
 A remake of Super Metroid's Samus using the original assets.

@@ -2,32 +2,20 @@
 {{ $title := .Page.Params.title }}
 {{ $description := .Page.Params.description }}
 {{ $source_code := .Page.Params.source_code }}
-{{ $images := .Page.Params.bookcase_images }}
-{{ $background_src := .Page.Params.bookcase_background_src }}
+{{ $images := .Page.Params.images }}
+{{ $background_src := .Page.Params.background_image }}
 {{ $tags := .Page.Params.tags }}
 {{ $links := .Page.Params.links }}
 {{ $icon_url := .Page.Params.icon_url }}
 {{ $github_user := .Page.Params.github_user }}
 {{ $github_repo := .Page.Params.github_repo }}
 
-{{ $accent_light := .Page.Params.bookcase_accent_colour_light }}
-{{ $accent_dark := .Page.Params.bookcase_accent_colour_dark }}
+{{ $accent_light := .Page.Params.accent_colour_light }}
+{{ $accent_dark := .Page.Params.accent_colour_dark }}
 
 <script src="/scripts/projectheader.js" data-user="{{ $github_user }}" data-repo="{{ $github_repo }}"></script>
 
 <style>
-html[data-theme="light"] {
-    --accent-colour: {{ $accent_dark }};
-    --on-accent-colour: white;
-    --accent-colour-reverse: {{ $accent_light }};
-}
-
-html[data-theme="dark"] {
-    --accent-colour: {{ $accent_light }};
-    --on-accent-colour: black;
-    --accent-colour-reverse: {{ $accent_dark }};
-}
-
 .projectheader {
     display: flex;
     gap: 10px;
@@ -38,6 +26,10 @@ html[data-theme="dark"] {
         gap: 20px; 
         align-items: center;
         overflow-x: scroll;
+    }
+
+    h1 {
+        margin: 0;
     }
 
     .header-column {
@@ -71,7 +63,6 @@ html[data-theme="dark"] {
 
     h1 {
         font-size: 3em;
-        color: var(--accent-colour);
     }
 
     p {
@@ -99,8 +90,7 @@ html[data-theme="dark"] {
         margin-left: -5.5%;
         margin-right: -5.5%;
 
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 25px;
         
         --mask:
             radial-gradient(27.42px at 50% calc(100% + 21.75px),#0000 calc(99% - 2px),#000 calc(101% - 2px) 99%,#0000 101%) calc(50% - 30px) calc(50% - 8.5px + .5px)/60px 17px repeat-x,

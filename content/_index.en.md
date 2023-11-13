@@ -1,8 +1,8 @@
-+++
-[[cascade]]
-hl = "en"
-github_user = "toasterofbread"
-+++
+---
+cascade:
+  hl: "en"
+  github_user: "toasterofbread"
+---
 
 {{< rawhtml >}}
 <div style="display: flex; gap: 20px; margin-bottom: 50px;">

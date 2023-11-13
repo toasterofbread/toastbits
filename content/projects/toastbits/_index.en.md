@@ -18,13 +18,14 @@ start_month: 10
 publishdate: 2023-10-23
 
 hide_in_preview: true
-bookcase_images: []
-bookcase_background_src: "/projects/toastbits/background.svg"
-bookcase_accent_colour_light: "#f27483"
-bookcase_accent_colour_dark: "#470512"
+images: []
+background_image: "/projects/toastbits/background.svg"
+accent_colour_light: "#f27483"
+accent_colour_dark: "#470512"
 ---
 
 
+{{< projecttheme >}}
 {{< projectheader >}}
 
 My personal website. Features a list of my projects, among other things.

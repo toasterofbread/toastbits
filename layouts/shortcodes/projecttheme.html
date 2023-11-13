@@ -1,0 +1,21 @@
+{{ $accent_light := .Page.Params.accent_colour_light }}
+{{ $accent_dark := .Page.Params.accent_colour_dark }}
+
+<style>
+    html[data-theme="light"] {
+        --accent-colour: {{ $accent_dark }};
+        --on-accent-colour: white;
+        --accent-colour-reverse: {{ $accent_light }};
+    }
+    
+    html[data-theme="dark"] {
+        --accent-colour: {{ $accent_light }};
+        --on-accent-colour: black;
+        --accent-colour-reverse: {{ $accent_dark }};
+    }
+    
+    h1 {
+        color: var(--accent-colour);
+        margin-top: 35px;
+    }
+</style>

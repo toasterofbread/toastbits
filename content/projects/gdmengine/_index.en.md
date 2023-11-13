@@ -20,10 +20,11 @@ end_year: 2021
 end_month: 9
 publishdate: 2021-09-01
 
-bookcase_images: ["/projects/gdmengine/1.jpg", "/projects/gdmengine/0.jpg", "/projects/gdmengine/2.jpg", "/projects/gdmengine/3.jpg", "/projects/gdmengine/4.gif"]
-bookcase_background_src: "/projects/gdmengine/background.svg"
-bookcase_accent_colour_light: "#e8553c"
-bookcase_accent_colour_dark: "#5e1205"
+images: ["/projects/gdmengine/1.jpg", "/projects/gdmengine/0.jpg", "/projects/gdmengine/2.jpg", "/projects/gdmengine/3.jpg", "/projects/gdmengine/4.gif"]
+background_image: "/projects/gdmengine/background.svg"
+accent_colour_light: "#e8553c"
+accent_colour_dark: "#5e1205"
 ---
 
+{{< projecttheme >}}
 {{< projectheader >}}

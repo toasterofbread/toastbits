@@ -17,12 +17,13 @@ end_year: 2021
 end_month: 10
 publishdate: 2021-10-01
 
-bookcase_images: ["/projects/untitleddinogame/2.png", "/projects/untitleddinogame/1.png", "/projects/untitleddinogame/0.gif"]
-bookcase_background_src: "/projects/untitleddinogame/background.svg"
-bookcase_accent_colour_light: "#0bd404"
-bookcase_accent_colour_dark: "#012a01"
+images: ["/projects/untitleddinogame/2.png", "/projects/untitleddinogame/1.png", "/projects/untitleddinogame/0.gif"]
+background_image: "/projects/untitleddinogame/background.svg"
+accent_colour_light: "#0bd404"
+accent_colour_dark: "#012a01"
 ---
 
+{{< projecttheme >}}
 {{< projectheader >}}
 
 A simple p2p infinite runner game I made in Godot in about a week.

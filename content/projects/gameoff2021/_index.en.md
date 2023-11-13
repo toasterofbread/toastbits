@@ -17,12 +17,13 @@ end_year: 2021
 end_month: 11
 publishdate: 2021-11-01
 
-bookcase_images: ["/projects/gameoff2021/0.png", "/projects/gameoff2021/1.png", "/projects/gameoff2021/2.png"]
-bookcase_background_src: "/projects/gameoff2021/background.svg"
-bookcase_accent_colour_light: "#737a85"
-bookcase_accent_colour_dark: "#2c2a32"
+images: ["/projects/gameoff2021/0.png", "/projects/gameoff2021/1.png", "/projects/gameoff2021/2.png"]
+background_image: "/projects/gameoff2021/background.svg"
+accent_colour_light: "#737a85"
+accent_colour_dark: "#2c2a32"
 ---
 
+{{< projecttheme >}}
 {{< projectheader >}}
 
 A project I started as an entry to the 2021 Github Game Off, involving an in-game scripting language.

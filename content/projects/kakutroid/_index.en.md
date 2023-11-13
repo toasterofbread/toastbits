@@ -18,12 +18,13 @@ end_year: 2022
 end_month: 3
 publishdate: 2022-03-01
 
-bookcase_images: ["/projects/kakutroid/0.png"]
-bookcase_background_src: "/projects/kakutroid/background.svg"
-bookcase_accent_colour_light: "#01a5ab"
-bookcase_accent_colour_dark: "#083538"
+images: ["/projects/kakutroid/0.png"]
+background_image: "/projects/kakutroid/background.svg"
+accent_colour_light: "#01a5ab"
+accent_colour_dark: "#083538"
 ---
 
+{{< projecttheme >}}
 {{< projectheader >}}
 
 A Metroidvania with simple geometric graphics and Celeste-inspired movement.
