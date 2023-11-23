@@ -1,6 +1,6 @@
 ---
 title: "SpMp"
-description: "A YouTube Music client I've been workin on August 2022.
+description: "A YouTube Music client I've been working on since August 2022.
 I've implemented useful queue manipulation features, as well as language and metadata customisation options."
 
 github_repo: "spmp"
