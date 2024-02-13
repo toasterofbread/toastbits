@@ -5,6 +5,12 @@
     line-height: 140%;
 }
 
+.line-numbers-rows {
+    * {
+        line-height: 150%;
+    }
+}
+
 main {
     min-width: 90%;
 }
@@ -23,7 +29,7 @@ figcaption {
 
 #navbar {
     margin: -0.5rem 0;
-    
+
     a {
         font-size: 0.9em !important;
     }

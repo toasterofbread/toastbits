@@ -8,7 +8,7 @@ const delay = (delay_ms) => {
 };
 
 async function getFortune() {
-    const response = await fetch("https://helloacm.com/api/fortune/")
+    const response = await fetch("https://helloacm.com/api/fortune/", {cache: "reload"})
     const fortune = await response.json()
 
     const code_blocks = document.querySelectorAll("code");
@@ -31,14 +31,14 @@ async function cycleTitleText() {
     while (title_element != null) {
         for (; title_index < TITLES.length; title_index++) {
             await delay(TITLE_CYCLE_DELAY_MS)
-            
+
             while (title_element.innerHTML.length > 0) {
                 title_element.innerHTML = title_element.innerHTML.slice(0, -1)
                 await delay(TITLE_CYCLE_DELETING_DELAY)
             }
-            
+
             await delay(TITLE_CYCLE_TYPING_DELAY)
-            
+
             const title = TITLES[title_index]
             for (var i = 0; i < title.length; i++) {
                 title_element.innerHTML += title[i]

@@ -21,11 +21,11 @@ enable_zooming_js = true
     navbar_title = """\
       <div style="display: flex; align-items: center;">
         ~$&nbsp;
-        
+
         <div style="color: var(--color-text-title);">
           toaster
         </div>
-        
+
         <div style="font-size: 0.7em;">
           @toastbits.dev
         </div>
@@ -33,11 +33,11 @@ enable_zooming_js = true
     """
     #navbar_html = '<a href="https://github.com/toasterofbread"><img src="/github-mark-white.svg" height=15px style="margin: auto; display: block;"></img></a>'
     weight = 2
-  
+
     [languages.en.params]
         author = "Talo Halton"
         footer = "Built with 愛 using <a href='https://github.com/gohugoio/hugo'>Hugo</a>, <a href='https://github.com/kaiiiz/hugo-theme-monochrome'>Monochrome</a>, and <a href='https://github.com/catppuccin/catppuccin'>Catppuccin</a>."
-  
+
     [[languages.en.menu.navbar]]
       identifier = "root"
       name = "root"
@@ -55,7 +55,7 @@ enable_zooming_js = true
       name = "/about"
       pageRef = "/en/about"
       weight = 3
-  
+
     [[languages.en.menu.navbar]]
       identifier = "github"
       name = "/github"
@@ -90,7 +90,7 @@ enable_zooming_js = true
       name = "/about"
       url = "/en/about"
       weight = 3
-  
+
     [[languages.en.menu.navbar]]
       identifier = "github"
       name = "/github"

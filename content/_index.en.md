@@ -34,7 +34,7 @@ cascade:
       font-size: 3em;
       font-family: monospace !important;
     }
-    
+
     p {
       margin-bottom: -5px;
       opacity: 75%;
@@ -72,7 +72,7 @@ I make stuff for fun and put it on the Internet. I've been programming on and of
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 20px;
-    
+
     div {
       padding-right: 100px;
     }
@@ -147,8 +147,8 @@ $ neofetch
                    -`                    toaster@toastbits.dev
                   .o+`                   ------------------
                  `ooo/                   OS: Arch Linux x86_64
-                `+oooo:                  Kernel: 6.1.55-1-lts
-               `+oooooo:                 Shell: fish 3.6.1
+                `+oooo:                  Kernel: 6.7.3-arch1-1
+               `+oooooo:                 Shell: fish
                -+oooooo+:                Displays: 1920x1080 (x2)
              `/:-:++oooo+:               DE: Hyprland
             `/++++/+++++++:              Theme: Catppuccin Mocha (Lavender)
@@ -156,13 +156,13 @@ $ neofetch
           `/+++ooooooooooooo/`           CPU: Intel i7-3770 (8) @ 3.900GHz
          ./ooosssso++osssssso+`          GPU: AMD ATI Radeon RX 6650 XT
         .oossssso-````/ossssss+`         Memory: 15892MiB
-       -osssssso.      :ssssssso.        
+       -osssssso.      :ssssssso.
       :osssssss/        osssso+++.       IDE: Visual Studio Code
      /ossssssss/        +ssssooo/-       Engine: Godot
    `/ossssso+/:-        -:/+osssso+-     Keyboard: 75% (brown)
   `+sso+:-`                 `.-/+oso:    Music: J-pop, rock
  `++:.                           `-/+/   Github: toasterofbread
- .`                                 `/   
+ .`                                 `/
 
 $ fortune
 ```
