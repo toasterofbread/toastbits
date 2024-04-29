@@ -22,6 +22,10 @@ images: [
     "/projects/godot-android-webview/images/compose.png",
     "/projects/godot-android-webview/images/webview.png"
 ]
+background_image: "/projects/godot-android-webview/background.svg"
+accent_colour_light: "#c7c7c7"
+accent_colour_dark: "#383838"
+
 ---
 
 {{< projecttheme >}}
