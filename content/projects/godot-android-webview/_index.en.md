@@ -46,7 +46,7 @@ By creating a [Godot Android plugin](https://docs.godotengine.org/en/stable/tuto
 
 The code for this PoC can be seen in the [initial state](https://github.com/toasterofbread/godot-compose-example/tree/8dbbb33eb4c6f7c86c8bb958699be53da197be21) of the example repository.
 
-![](images/webview.png)
+![](/projects/godot-android-webview/images/webview.png)
 
 4. Rendering a view with Jetpack Compose content
 
@@ -54,4 +54,4 @@ It was at that point when I realised that if I was able to display arbitrary And
 
 From there, I swapped the webview out for some Compose UI, then added code to forward any mouse/touch inputs on the Godot node to the Android view (which was surprisingly easy, although I haven't tested swipe gestures yet), and got everything working without much trouble.
 
-<image src="images/compose.png" height=500>
+![](/projects/godot-android-webview/images/compose.png)
