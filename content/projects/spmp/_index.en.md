@@ -1,6 +1,6 @@
 ---
 title: "SpMp"
-description: "A YouTube Music client I've been working on since August 2022.
+description: "A YouTube Music client for Android and Linux (and Windows) I've been working on since August 2022.
 I've implemented useful queue manipulation features, as well as language and metadata customisation options."
 
 github_repo: "spmp"
@@ -15,14 +15,14 @@ links: [
 ]
 tags:
 - Kotlin
-- Jetpack Compose
+- Compose
 - Android
 
 start_year: 2022
 start_month: 8
 publishdate: 2022-08-01
 
-images: ["/projects/spmp/images/0.png", "/projects/spmp/images/1.png", "/projects/spmp/images/2.png", "/projects/spmp/images/3.png", "/projects/spmp/images/4.png", "/projects/spmp/images/5.png", "/projects/spmp/images/6.png", "/projects/spmp/images/7.png", "/projects/spmp/images/8.png", "/projects/spmp/images/9.png"]
+images: ["/projects/spmp/images/1.png", "/projects/spmp/images/landscape_1.png", "/projects/spmp/images/2.png", "/projects/spmp/images/3.png", "/projects/spmp/images/landscape_2.png", "/projects/spmp/images/4.png", "/projects/spmp/images/5.png", "/projects/spmp/images/6.png", "/projects/spmp/images/landscape_2.png", "/projects/spmp/images/7.png", "/projects/spmp/images/8.png", "/projects/spmp/images/9.png", "/projects/spmp/images/0.png"]
 background_image: "/projects/spmp/background.svg"
 
 cascade:

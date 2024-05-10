@@ -4,21 +4,6 @@ cascade:
   github_user: "toasterofbread"
 ---
 
-{{< rawhtml >}}
-<div style="display: flex; gap: 20px; margin-bottom: 50px;">
-  <img src="https://i.ytimg.com/vi/kB2QZ1A3Tyg/hqdefault.jpg" style="max-height: 130px; margin: 0; transform: scaleX(-1);">
-  <div>
-    <h3 style="margin-bottom: 10px;">Site under construction</h3>
-    TODO:
-    <ul style="font-size: 0.7em">
-      <li>More projects</li>
-      <li>More content for projects</li>
-      <li>Japanese translations</li>
-    </ul>
-  </div>
-</div>
-{{< /rawhtml>}}
-
 {{< listeningto >}}
 
 `$ whoami`
@@ -99,29 +84,28 @@ I make stuff for fun and put it on the Internet. I've been programming on and of
   </div>
 
   <div>
-    <h4>Frameworks</h4>
+    <h4>Frameworks / platforms</h4>
     <ul>
       <li><a href="projects?tag=Godot">Godot Engine</a></li>
-      <li><a href="projects?tag=Jetpack+Compose">Jetpack Compose</a></li>
+      <li><a href="projects?tag=Compose">Jetpack Compose (multiplatform)</a></li>
       <li><a href="projects?tag=Raylib">Raylib</a></li>
+      <li><a href="projects?tag=Android">Android</a></li>
     </ul>
   </div>
 
   <div>
-    <h4>Other technologies</h4>
+    <h4>Other Things I've dabbled in</h4>
     <ul>
-      <li><a href="projects?tag=GCloud">Google Cloud & Firebase</a></li>
       <li><a href="projects?tag=VR">Virtual reality</a></li>
       <li><a href="projects?tag=Discord">Discord</a></li>
-      <li><a href="projects?tag=Android">Android</a></li>
     </ul>
   </div>
 
   <div>
     <h4>Spoken languages</h4>
     <ul>
-      <li>English (fluent)</li>
-      <li><a href="projects?tag=Japanese">Japanese</a> (fluent)</li>
+      <li>English (native)</li>
+      <li>Japanese (fluent)</li>
     </ul>
   </div>
 </div>
@@ -129,11 +113,11 @@ I make stuff for fun and put it on the Internet. I've been programming on and of
 <br>
 <br>
 
-<code>$ ls <a href="/en/projects">/projects</a></code>
+<code>$ ls <a href="/en/projects">/projects</a> | head -5</code>
 
 {{< /rawhtml >}}
 
-{{< bookcase section="/projects" row=true preview=true >}}
+{{< bookcase section="/projects" row=true preview=true limit=5 >}}
 
 <!-- {{< rawhtml >}}
 <code>$ curl https://status.toastbits.dev/song > <a href="/en/about">/about</a></code>

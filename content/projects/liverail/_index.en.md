@@ -1,6 +1,6 @@
 ---
 title: "LiveRail"
-description: "This is a school project"
+description: "A-Level computer science project. Top-down simulation of a railway using real-world timetable and map data."
 
 github_repo: "LiveRail"
 source_code: "https://github.com/toasterofbread/LiveRail/"
@@ -17,8 +17,8 @@ end_year: 2024
 end_month: 4
 publishdate: 2024-02-13
 
-images: []
-background_image: ""
+images: ["/projects/liverail/0.png", "/projects/liverail/1.png"]
+background_image: "/projects/liverail/background.svg"
 accent_colour_light: "#77b64d"
 accent_colour_dark: "#42662a"
 ---
@@ -26,4 +26,6 @@ accent_colour_dark: "#42662a"
 {{< projecttheme >}}
 {{< projectheader >}}
 
-## [Development log](log)
+The final report for this project can be read on the GitHub repository.
+
+## [(Partial) development log](log)

@@ -1,6 +1,6 @@
 ---
 title: "Kakutroid"
-description: "A Metroidvania with simple geometric graphics and Celeste-inspired movement. Another project I planned to finish and release but was never able to."
+description: "An (unfinished) Metroidvania with simple geometric graphics and Celeste-inspired movement."
 
 github_repo: "Kakutroid"
 source_code: "https://github.com/toasterofbread/Kakutroid"

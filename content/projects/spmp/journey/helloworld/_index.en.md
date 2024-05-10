@@ -10,7 +10,7 @@ publishdate: 2023-11-13
 {{< imagedetails
     images="/projects/spmp/journey/0.png /projects/spmp/journey/1.png /projects/spmp/journey/2.png"
     title="The first screenshots of SpMp"
-    subtitle="Taken 14 Sep 2022"
+    subtitle="2022-09-14"
     flex=true
     row-style="min-width: 40%;"
 >}}
@@ -26,7 +26,7 @@ The system for theming the UI using a colour from the song image was also in pla
 {{< imagedetails
     images="/projects/spmp/journey/-1.png"
     title="The *actual* first screenshot of SpMp"
-    subtitle="Taken 30 August 2022"
+    subtitle="2022-08-30"
 >}}
 
 It looked funny, so I took a screenshot. That's it.
