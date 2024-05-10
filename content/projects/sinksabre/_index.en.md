@@ -28,9 +28,3 @@ accent_colour_dark: "#64B6AC"
 
 {{< projecttheme >}}
 {{< projectheader >}}
-
-A Kotlin Multiplatform library for (unofficially) using the YouTube Music API, optionally with user authentication.
-
-A developer in the SpMp Discord who was creating their own music app mentioned they were looking at SpMp's code for interfacing with YouTube's API but didn't like that it was mixed with UI code in some places.
-
-I'd been planning on making the API code into its own library anyway, so I offered to get the project started. It took me about a week to separate and clean the code, and add some (very) basic documentation and a sample file.
