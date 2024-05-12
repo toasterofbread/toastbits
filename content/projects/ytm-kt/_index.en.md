@@ -1,6 +1,6 @@
 ---
 title: "ytm-kt"
-description: "A Kotlin Multiplatform library for (unofficially) using the YouTube Music API, optionally with user authentication"
+description: "A Kotlin Multiplatform library for (unofficially) using the YouTube Music API, optionally with user authentication."
 
 github_repo: "ytm-kt"
 source_code: "https://github.com/toasterofbread/ytm-kt"

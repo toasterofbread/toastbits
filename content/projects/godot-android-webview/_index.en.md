@@ -1,6 +1,6 @@
 ---
 title: "Godot Android Webview"
-description: "Hacking together a way of displaying webview content in Godot on Android"
+description: "Hacking together a way of displaying webview content in Godot on Android."
 
 github_repo: "godot-compose-example"
 source_code: "https://github.com/toasterofbread/godot-compose-example/"

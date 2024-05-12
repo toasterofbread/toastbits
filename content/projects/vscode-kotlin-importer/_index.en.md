@@ -1,6 +1,6 @@
 ---
 title: "VSCode Kotlin Importer"
-description: "A simple VSCode extension that quickly adds import lines for Kotlin keywords"
+description: "A simple VSCode extension that quickly adds import lines for Kotlin keywords."
 
 github_repo: "vscode-kotlin-importer"
 source_code: "https://github.com/toasterofbread/vscode-kotlin-importer/"

@@ -1,6 +1,6 @@
 ---
 title: "mediasession-kt"
-description: "A Kotlin Multiplatform library for emitting a system media session"
+description: "A Kotlin Multiplatform library for emitting a system media session."
 
 github_repo: "ytm-kt"
 source_code: "https://github.com/toasterofbread/mediasession-kt"
