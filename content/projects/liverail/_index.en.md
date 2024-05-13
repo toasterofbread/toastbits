@@ -4,6 +4,7 @@ description: "A-Level computer science project. Top-down simulation of a railway
 
 github_repo: "LiveRail"
 source_code: "https://github.com/toasterofbread/LiveRail/"
+demo_url: "https://toasterofbread.github.io/LiveRail/"
 
 links: [
     { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/LiveRail/", "label": "Repository" }

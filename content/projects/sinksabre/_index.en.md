@@ -1,6 +1,6 @@
 ---
 title: "SinkSabre"
-description: "An alternative to the Beat Saber sync function provided by BMBF and BeatSaver for Oculus Quest."
+description: "A Meta Quest app serving as an alternative to BMBF's Beat Sync function for Beat Saber, designed with VR in mind."
 
 github_repo: "sinksabre"
 source_code: "https://github.com/toasterofbread/sinksabre"

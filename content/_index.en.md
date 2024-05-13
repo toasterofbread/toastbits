@@ -48,7 +48,9 @@ cascade:
 
 {{< /rawhtml >}}
 
-I make stuff for fun and put it on the Internet. I've been programming on and off (but mostly on) since teaching myself Python in 2019.
+I'm a 19 year-old British-Japanese guy who likes writing code to solve problems. Since teaching myself Python in 2019, I've been improving my skills and learning new ones.
+
+I enjoy a making variety of different types of software, ranging from scripts for my Linux desktop to games and fullstack multiplatform applications.
 
 {{< rawhtml >}}
 <style>
@@ -79,22 +81,21 @@ I make stuff for fun and put it on the Internet. I've been programming on and of
       <li><a href="projects?tag=Python">Python</a></li>
       <li><a href="projects?tag=Godot">GDScript</a></li>
       <li><a href="projects?tag=C%2B%2B">C++</a></li>
-      <li><a href="projects?tag=Lua">Lua</a></li>
     </ul>
   </div>
 
   <div>
     <h4>Frameworks / platforms</h4>
     <ul>
-      <li><a href="projects?tag=Godot">Godot Engine</a></li>
       <li><a href="projects?tag=Compose">Jetpack Compose (multiplatform)</a></li>
-      <li><a href="projects?tag=Raylib">Raylib</a></li>
       <li><a href="projects?tag=Android">Android</a></li>
+      <li><a href="projects?tag=Godot">Godot Engine</a></li>
+      <li><a href="projects?tag=Raylib">Raylib</a></li>
     </ul>
   </div>
 
   <div>
-    <h4>Other Things I've dabbled in</h4>
+    <h4>Other things I'm interested in</h4>
     <ul>
       <li><a href="projects?tag=VR">Virtual reality</a></li>
       <li><a href="projects?tag=Discord">Discord</a></li>
