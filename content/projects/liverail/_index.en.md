@@ -30,4 +30,34 @@ accent_colour_dark: "#42662a"
 
 The final report for this project can be read on the GitHub repository.
 
-## [(Partial) development log](log)
+A (partial) development log can be read [here](log).
+
+{{< rawhtml >}}
+
+<h1>
+    <div style="display: flex; gap: 10px;">
+        Demo
+
+        <h5 style="display: flex; align-items: center;">
+        [<a id="showIframeButton" href="#">Show</a>]
+        [<a id="hideIframeButton" href="#">Hide</a>]
+        </h5>
+    </div>
+</h1>
+
+<embed id="demoEmbed" src="" style="width: 100%; aspect-ratio: 16/9; display: none;"></embed>
+
+<script>
+    document.getElementById("showIframeButton").addEventListener("click", function() {
+        const embed = document.getElementById("demoEmbed")
+        embed.src = 'https://toasterofbread.github.io/LiveRail';
+        embed.style.display = "block";
+    });
+
+    document.getElementById("hideIframeButton").addEventListener("click", function() {
+        const embed = document.getElementById("demoEmbed")
+        embed.style.display = "none";
+    });
+</script>
+
+{{< /rawhtml >}}
