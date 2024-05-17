@@ -1,4 +1,4 @@
-@import url("https://unpkg.com/@catppuccin/palette/css/catppuccin.css");
+@import url("catppuccin/catppuccin.css");
 
 *:not(i) {
     font-family: "JetBrains Mono", monospace !important;

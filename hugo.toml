@@ -12,6 +12,10 @@ enable_collapsible_changelogs = true
 enable_site_search = true
 enable_zooming_js = true
 
+[outputs]
+home = ["HTML", "JSON"]
+page = ["HTML", "JSON"]
+
 [languages]
   [languages.en]
     languageCode = 'en-GB'
