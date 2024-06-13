@@ -1,4 +1,3 @@
-const TITLES = ["Talo Halton", "ホートン太郎", "toasterofbread"]
 const TITLE_CYCLE_DELAY_MS = 10000
 const TITLE_CYCLE_TYPING_DELAY = 300
 const TITLE_CYCLE_DELETING_DELAY = 50
@@ -28,8 +27,10 @@ async function cycleTitleText() {
     const title_element = document.getElementById("title")
     var title_index = 1
 
+    const titles = JSON.parse(document.currentScript.getAttribute("titles"))
+
     while (title_element != null) {
-        for (; title_index < TITLES.length; title_index++) {
+        for (; title_index < titles.length; title_index++) {
             await delay(TITLE_CYCLE_DELAY_MS)
 
             while (title_element.innerHTML.length > 0) {
@@ -39,7 +40,7 @@ async function cycleTitleText() {
 
             await delay(TITLE_CYCLE_TYPING_DELAY)
 
-            const title = TITLES[title_index]
+            const title = titles[title_index]
             for (var i = 0; i < title.length; i++) {
                 title_element.innerHTML += title[i]
                 await delay(TITLE_CYCLE_TYPING_DELAY * Math.random())

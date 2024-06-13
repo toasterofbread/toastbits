@@ -10,7 +10,7 @@ enable_toc = true
 enable_collapsible_toc = true
 enable_collapsible_changelogs = true
 enable_site_search = true
-enable_zooming_js = true
+enable_zooming_js = false
 
 [outputs]
 home = ["HTML", "JSON"]
@@ -22,42 +22,44 @@ page = ["HTML", "JSON"]
     languageDirection = 'ltr'
     languageName = 'English'
     title = "ToastBits"
-    navbar_title = """\
-      <div style="display: flex; align-items: center;">
-        ~$&nbsp;
-
-        <div style="color: var(--color-text-title);">
-          toaster
-        </div>
-
-        <div style="font-size: 0.7em;">
-          @toastbits.dev
-        </div>
-        </div>
-    """
     #navbar_html = '<a href="https://github.com/toasterofbread"><img src="/github-mark-white.svg" height=15px style="margin: auto; display: block;"></img></a>'
     weight = 2
 
     [languages.en.params]
         author = "Talo Halton"
         footer = "Built with 愛 using <a href='https://github.com/gohugoio/hugo'>Hugo</a>, <a href='https://github.com/kaiiiz/hugo-theme-monochrome'>Monochrome</a>, and <a href='https://github.com/catppuccin/catppuccin'>Catppuccin</a>."
+        navbar_title = """\
+          <div style="display: flex; align-items: center;">
+            ~$&nbsp;
+
+            <div style="color: var(--color-text-title);">
+              toaster
+            </div>
+
+            <div style="font-size: 0.7em;">
+              @toastbits.dev
+            </div>
+            </div>
+        """
+
+        source_code_label = "AAA"
 
     [[languages.en.menu.navbar]]
       identifier = "root"
       name = "root"
-      pageRef = "/en/"
+      pageRef = "/"
       weight = 1
 
     [[languages.en.menu.navbar]]
         identifier = "projects"
         name = "/projects"
-        pageRef = "/en/projects/"
+        pageRef = "/projects/"
         weight = 2
 
     [[languages.en.menu.navbar]]
       identifier = "about"
       name = "/about"
-      pageRef = "/en/about"
+      pageRef = "/about"
       weight = 3
 
     [[languages.en.menu.navbar]]
@@ -75,27 +77,42 @@ page = ["HTML", "JSON"]
 
     [languages.ja.params]
         author = "ホートン太郎"
-        footer = "Built with 愛 using <a href='https://github.com/gohugoio/hugo'>Hugo</a> and <a href='https://github.com/kaiiiz/hugo-theme-monochrome'>Monochrome</a>."
+        footer = "<a href='https://github.com/gohugoio/hugo'>Hugo</a> と <a href='https://github.com/kaiiiz/hugo-theme-monochrome'>Monochrome</a> で製作。"
+        navbar_title = """\
+          <div style="display: flex; align-items: center;">
+            ~$&nbsp;
 
-    [[languages.en.menu.navbar]]
+            <div style="color: var(--color-text-title);">
+              toaster
+            </div>
+
+            <div style="font-size: 0.7em;">
+              @toastbits.dev
+            </div>
+            </div>
+        """
+
+        source_code_label = "BBB"
+
+    [[languages.ja.menu.navbar]]
       identifier = "root"
-      name = "root"
-      url = "/"
+      name = "ルート"
+      url = "/ja"
       weight = 1
 
-    [[languages.en.menu.navbar]]
+    [[languages.ja.menu.navbar]]
         identifier = "projects"
-        name = "/projects"
-        url = "/en/projects/"
+        name = "/プロジェクト"
+        url = "/ja/projects/"
         weight = 2
 
-    [[languages.en.menu.navbar]]
+    [[languages.ja.menu.navbar]]
       identifier = "about"
-      name = "/about"
-      url = "/en/about"
+      name = "/アバウト"
+      url = "/ja/about"
       weight = 3
 
-    [[languages.en.menu.navbar]]
+    [[languages.ja.menu.navbar]]
       identifier = "github"
       name = "/github"
       url = "/github"

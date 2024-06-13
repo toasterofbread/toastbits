@@ -22,8 +22,8 @@
     flex-direction: column;
 
     .header {
-        display: flex; 
-        gap: 20px; 
+        display: flex;
+        gap: 20px;
         align-items: center;
         overflow-x: scroll;
     }
@@ -36,7 +36,7 @@
         display: flex;
         flex-direction: column;
         gap: 5px;
-        width: 100%; 
+        width: 100%;
         margin-bottom: 15px;
     }
 
@@ -49,7 +49,7 @@
             margin-top: auto;
             margin-bottom: auto;
             gap: 15px;
-            
+
             .repo-value {
                 color: var(--accent-colour) !important;
 
@@ -86,12 +86,12 @@
         left: 100px;
         background-color: var(--accent-colour);
         opacity: 15%;
-        
+
         margin-left: -5.5%;
         margin-right: -5.5%;
 
         margin-top: 25px;
-        
+
         --mask:
             radial-gradient(27.42px at 50% calc(100% + 21.75px),#0000 calc(99% - 2px),#000 calc(101% - 2px) 99%,#0000 101%) calc(50% - 30px) calc(50% - 8.5px + .5px)/60px 17px repeat-x,
             radial-gradient(27.42px at 50% -21.75px,#0000 calc(99% - 2px),#000 calc(101% - 2px) 99%,#0000 101%) 50% calc(50% + 8.5px)/60px 17px repeat-x;
@@ -130,7 +130,7 @@
             border-radius: 10px;
             font-size: 15px;
             height: 20px;
-            
+
             background-color: var(--color-background-card);
             background-size: 20px, 20px;
             padding: 5px 10px 5px 10px;
@@ -141,7 +141,7 @@
             }
         }
     }
-    
+
     .tags {
         display: flex;
         flex-flow: row;
@@ -152,7 +152,7 @@
             font-size: 0.9em;
             color: var(--on-accent-colour);
         }
-        
+
         i {
             margin: auto;
             color: var(--accent-colour);
@@ -160,7 +160,7 @@
 
         .tag {
             background: var(--accent-colour);
-            
+
             padding: 5px;
             border-radius: 3px;
         }
@@ -196,14 +196,14 @@
                                 <div class="value"></div>
                             </a>
                         </template>
-    
+
                         <template class="repo-value-template" data-key="stargazers_count" data-url="https://github.com/{{ $github_user }}/{{ $github_repo }}/stargazers">
                             <a class="repo-value">
                                 <i class="fa-regular fa-star"></i>
                                 <div class="value"></div>
                             </a>
                         </template>
-    
+
                         <template class="repo-value-template" data-key="license,spdx_id">
                             <a class="repo-value">
                                 <i class="fa-solid fa-scale-balanced"></i>
@@ -213,22 +213,22 @@
                     </div>
                 {{ end }}
             </div>
-            
+
             <div class="info-row">
                 <div class="tags">
                     {{ with $tags }}
                         <i class="fa-solid fa-tags"></i>
-            
+
                         {{ range . }}
-                        
+
                         <div class="tag">
                             <a href="/{{ $hl }}/projects?tag={{ . }}">{{ . }}</a>
                         </div>
-            
+
                         {{ end }}
                     {{ end }}
                 </div>
-        
+
                 {{ with $links }}
                     <div class="buttons">
                         {{ range . }}
@@ -248,10 +248,10 @@
     </div>
 
     <p>{{ $description }}</p>
-    
+
     {{ with $images }}
     <details>
-        <summary>Images</summary>
+        <summary>{{ i18n "project_images" }}</summary>
         <div class="images">
             {{ range . }}
             <img src="{{ . }}">
