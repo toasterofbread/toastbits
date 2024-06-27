@@ -129,25 +129,26 @@ $ pwd
 /home/toaster
 
 $ neofetch
-                   -`                    toaster@toastbits.dev
-                  .o+`                   ------------------
-                 `ooo/                   OS: Arch Linux x86_64
-                `+oooo:                  Kernel: 6.7.3-arch1-1
-               `+oooooo:                 Shell: fish
-               -+oooooo+:                Displays: 1920x1080 (x2)
-             `/:-:++oooo+:               DE: Hyprland
-            `/++++/+++++++:              Theme: Catppuccin Mocha (Lavender)
-           `/++++++++++++++:             Terminal: kitty
-          `/+++ooooooooooooo/`           CPU: Intel i7-3770 (8) @ 3.900GHz
-         ./ooosssso++osssssso+`          GPU: AMD ATI Radeon RX 6650 XT
-        .oossssso-````/ossssss+`         Memory: 15892MiB
-       -osssssso.      :ssssssso.
-      :osssssss/        osssso+++.       IDE: Visual Studio Code
-     /ossssssss/        +ssssooo/-       Engine: Godot
-   `/ossssso+/:-        -:/+osssso+-     Keyboard: 75% (brown)
-  `+sso+:-`                 `.-/+oso:    Music: J-pop, rock
- `++:.                           `-/+/   Github: toasterofbread
- .`                                 `/
+          ▗▄▄▄       ▗▄▄▄▄    ▄▄▄▖            toaster@toastbits.dev
+          ▜███▙       ▜███▙  ▟███▛            ------------------
+           ▜███▙       ▜███▙▟███▛             OS: NixOS x86_64
+            ▜███▙       ▜██████▛              Kernel: 6.6.32
+     ▟█████████████████▙ ▜████▛     ▟▙        Shell: fish
+    ▟███████████████████▙ ▜███▙    ▟██▙       Displays: 1920x1080 (x2)
+           ▄▄▄▄▖           ▜███▙  ▟███▛       DE: Hyprland
+          ▟███▛             ▜██▛ ▟███▛        Theme: Catppuccin Mocha (Lavender)
+         ▟███▛               ▜▛ ▟███▛         Terminal: kitty
+▟███████████▛                  ▟██████████▙   CPU: Intel i7-3770 (8) @ 3.900GHz
+▜██████████▛                  ▟███████████▛   GPU: AMD ATI Radeon RX 6650 XT
+      ▟███▛ ▟▙               ▟███▛            Memory: 15892MiB
+     ▟███▛ ▟██▙             ▟███▛
+    ▟███▛  ▜███▙           ▝▀▀▀▀              IDE: Visual Studio Code
+    ▜██▛    ▜███▙ ▜██████████████████▛        Engine: Godot
+     ▜▛     ▟████▙ ▜████████████████▛         Keyboard: 75% (brown)
+           ▟██████▙       ▜███▙               Music: J-pop, rock
+          ▟███▛▜███▙       ▜███▙              Github: toasterofbread
+         ▟███▛  ▜███▙       ▜███▙
+         ▝▀▀▀    ▀▀▀▀▘       ▀▀▀▘
 
 $ fortune
 ```
