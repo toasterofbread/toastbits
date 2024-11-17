@@ -7,8 +7,8 @@ source_code: "https://github.com/toasterofbread/LiveRail/"
 demo_url: "https://toasterofbread.github.io/LiveRail/"
 
 links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/LiveRail/", "label": "Repository" },
-    { "icon": "fa-solid fa-play", "link": "https://toasterofbread.github.io/LiveRail/", "label": "Demo" }
+    { "icon": "bx bxl-github", "link": "https://github.com/toasterofbread/LiveRail/", "label": "Repository" },
+    { "icon": "bx bx-play", "link": "https://toasterofbread.github.io/LiveRail/", "label": "Demo" }
 ]
 tags:
 - Godot

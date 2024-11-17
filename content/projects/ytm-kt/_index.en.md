@@ -6,7 +6,7 @@ github_repo: "ytm-kt"
 source_code: "https://github.com/toasterofbread/ytm-kt"
 
 links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/ytm-kt", "label": "Repository" }
+    { "icon": "bx bxl-github", "link": "https://github.com/toasterofbread/ytm-kt", "label": "Repository" }
 ]
 tags:
 - Kotlin

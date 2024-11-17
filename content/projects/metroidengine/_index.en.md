@@ -6,7 +6,7 @@ github_repo: "original-metroid-engine"
 source_code: "https://github.com/toasterofbread/original-metroid-engine"
 
 links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/original-metroid-engine", "label": "Repository" }
+    { "icon": "bx bxl-github", "link": "https://github.com/toasterofbread/original-metroid-engine", "label": "Repository" }
 ]
 tags:
 - Godot

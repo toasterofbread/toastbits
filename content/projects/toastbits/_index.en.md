@@ -6,8 +6,8 @@ github_repo: "toastbits"
 source_code: "https://github.com/toasterofbread/toastbits"
 
 links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/toastbits", "label": "Repository" },
-    { "icon": "fa-solid fa-globe", "link": "https://toastbits.dev", "label": "Website" }
+    { "icon": "bx bxl-github", "link": "https://github.com/toasterofbread/toastbits", "label": "Repository" },
+    { "icon": "bx bx-globe", "link": "https://toastbits.dev", "label": "Website" }
 ]
 tags:
 - Web

@@ -6,7 +6,7 @@ github_repo: "Untitled-Dino-Game"
 source_code: "https://github.com/toasterofbread/Untitled-Dino-Game"
 
 links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/Untitled-Dino-Game", "label": "Repository" }
+    { "icon": "bx bxl-github", "link": "https://github.com/toasterofbread/Untitled-Dino-Game", "label": "Repository" }
 ]
 tags:
 - Godot

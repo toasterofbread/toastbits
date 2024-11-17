@@ -192,21 +192,21 @@
                     <div class="repo-values">
                         <template class="repo-value-template" data-key="open_issues" data-url="https://github.com/{{ $github_user }}/{{ $github_repo }}/issues">
                             <a class="repo-value">
-                                <i class="fa-solid fa-circle-exclamation"></i>
+                                <i class="bx bxs-error-circle"></i>
                                 <div class="value"></div>
                             </a>
                         </template>
 
                         <template class="repo-value-template" data-key="stargazers_count" data-url="https://github.com/{{ $github_user }}/{{ $github_repo }}/stargazers">
                             <a class="repo-value">
-                                <i class="fa-regular fa-star"></i>
+                                <i class="bx bx-star"></i>
                                 <div class="value"></div>
                             </a>
                         </template>
 
                         <template class="repo-value-template" data-key="license,spdx_id">
                             <a class="repo-value">
-                                <i class="fa-solid fa-scale-balanced"></i>
+                                <i class="bx bx-book"></i>
                                 <div class="value"></div>
                             </a>
                         </template>
@@ -217,7 +217,7 @@
             <div class="info-row">
                 <div class="tags">
                     {{ with $tags }}
-                        <i class="fa-solid fa-tags"></i>
+                        <i class="bx bx-tag-alt"></i>
 
                         {{ range . }}
 

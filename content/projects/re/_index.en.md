@@ -6,7 +6,7 @@ github_repo: "RE"
 source_code: "https://github.com/toasterofbread/RE/"
 
 links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/RE/", "label": "Repository" }
+    { "icon": "bx bxl-github", "link": "https://github.com/toasterofbread/RE/", "label": "Repository" }
 ]
 tags:
 - C++

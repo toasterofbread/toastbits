@@ -6,7 +6,7 @@ github_repo: "godot-compose-example"
 source_code: "https://github.com/toasterofbread/godot-compose-example/"
 
 links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/godot-compose-example/", "label": "Repository" }
+    { "icon": "bx bxl-github", "link": "https://github.com/toasterofbread/godot-compose-example/", "label": "Repository" }
 ]
 tags:
 - Godot

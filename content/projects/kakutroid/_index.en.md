@@ -6,7 +6,7 @@ github_repo: "Kakutroid"
 source_code: "https://github.com/toasterofbread/Kakutroid"
 
 links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/Kakutroid", "label": "Repository" }
+    { "icon": "bx bxl-github", "link": "https://github.com/toasterofbread/Kakutroid", "label": "Repository" }
 ]
 tags:
 - Godot

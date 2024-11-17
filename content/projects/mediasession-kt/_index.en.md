@@ -6,7 +6,7 @@ github_repo: "ytm-kt"
 source_code: "https://github.com/toasterofbread/mediasession-kt"
 
 links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/mediasession-kt", "label": "Repository" }
+    { "icon": "bx bxl-github", "link": "https://github.com/toasterofbread/mediasession-kt", "label": "Repository" }
 ]
 tags:
 - Kotlin

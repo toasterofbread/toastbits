@@ -6,7 +6,7 @@ github_repo: "sinksabre"
 source_code: "https://github.com/toasterofbread/sinksabre"
 
 links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/sinksabre", "label": "レポジトリ" }
+    { "icon": "bx bxl-github", "link": "https://github.com/toasterofbread/sinksabre", "label": "レポジトリ" }
 ]
 tags:
 - VR

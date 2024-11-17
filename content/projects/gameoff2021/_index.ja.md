@@ -6,7 +6,7 @@ github_repo: "Game-Off-2021"
 source_code: "https://github.com/toasterofbread/Game-Off-2021"
 
 links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/Game-Off-2021", "label": "レポジトリ" }
+    { "icon": "bx bxl-github", "link": "https://github.com/toasterofbread/Game-Off-2021", "label": "レポジトリ" }
 ]
 tags:
 - Godot

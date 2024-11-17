@@ -7,8 +7,8 @@ source_code: "https://github.com/toasterofbread/godot-metroid-engine"
 icon_url: "https://raw.githubusercontent.com/toasterofbread/godot-metroid-engine/main/icon.png"
 
 links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/godot-metroid-engine", "label": "Repository" },
-    { "icon": "fa-solid fa-diagram-project", "link": "https://github.com/spectreseven1138-alt/MPF", "label": "Project fork" }
+    { "icon": "bx bxl-github", "link": "https://github.com/toasterofbread/godot-metroid-engine", "label": "Repository" },
+    { "icon": "bx bx-git-branch", "link": "https://github.com/spectreseven1138-alt/MPF", "label": "Project fork" }
 ]
 tags:
 - Godot

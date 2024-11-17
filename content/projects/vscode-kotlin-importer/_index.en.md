@@ -6,7 +6,7 @@ github_repo: "vscode-kotlin-importer"
 source_code: "https://github.com/toasterofbread/vscode-kotlin-importer/"
 
 links: [
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/vscode-kotlin-importer/", "label": "Repository" }
+    { "icon": "bx bxl-github", "link": "https://github.com/toasterofbread/vscode-kotlin-importer/", "label": "Repository" }
 ]
 tags:
 - TypeScript

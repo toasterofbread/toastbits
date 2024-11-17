@@ -8,10 +8,10 @@ source_code: "https://github.com/toasterofbread/spmp"
 icon_url: https://raw.githubusercontent.com/toasterofbread/spmp/main/metadata/en-US/images/icon.png
 
 links: [
-    { "icon": "fa-brands fa-discord", "link": "https://discord.gg/B4uY4FkkJ3", "label": "Discord" },
-    { "icon": "fa-brands fa-android", "link": "https://f-droid.org/en/packages/com.toasterofbread.spmp/", "label": "F-Droid" },
-    { "icon": "fa-brands fa-github", "link": "https://github.com/toasterofbread/spmp", "label": "Repo" },
-    { "icon": "fa-solid fa-code", "link": "https://spmp.toastbits.dev", "label": "Documentation" }
+    { "icon": "bx bxl-discord", "link": "https://discord.gg/B4uY4FkkJ3", "label": "Discord" },
+    { "icon": "bx bxl-android", "link": "https://f-droid.org/en/packages/com.toasterofbread.spmp/", "label": "F-Droid" },
+    { "icon": "bx bxl-github", "link": "https://github.com/toasterofbread/spmp", "label": "Repo" },
+    { "icon": "bx bx-code", "link": "https://spmp.toastbits.dev", "label": "Documentation" }
 ]
 tags:
 - Kotlin
