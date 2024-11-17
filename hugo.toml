@@ -57,16 +57,22 @@ page = ["HTML", "JSON"]
         weight = 2
 
     [[languages.en.menu.navbar]]
+        identifier = "repos"
+        name = "/repos"
+        pageRef = "/repos/"
+        weight = 3
+
+    [[languages.en.menu.navbar]]
       identifier = "about"
       name = "/about"
       pageRef = "/about"
-      weight = 3
+      weight = 4
 
     [[languages.en.menu.navbar]]
       identifier = "github"
       name = "/github"
       pageRef = "/github"
-      weight = 4
+      weight = 5
 
   [languages.ja]
     languageCode = 'ja-JP'
@@ -107,13 +113,19 @@ page = ["HTML", "JSON"]
         weight = 2
 
     [[languages.ja.menu.navbar]]
+        identifier = "repos"
+        name = "/レポジトリ"
+        url = "/ja/repos/"
+        weight = 3
+
+    [[languages.ja.menu.navbar]]
       identifier = "about"
       name = "/アバウト"
       url = "/ja/about"
-      weight = 3
+      weight = 4
 
     [[languages.ja.menu.navbar]]
       identifier = "github"
       name = "/github"
       url = "/github"
-      weight = 4
+      weight = 5
