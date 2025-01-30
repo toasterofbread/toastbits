@@ -48,7 +48,7 @@ cascade:
 
 {{< /rawhtml >}}
 
-I'm a 19 year-old British-Japanese guy who likes writing code to solve problems. Since teaching myself Python in 2019, I've been improving my skills and learning new ones.
+I'm a 20 year-old British-Japanese guy who likes writing code to solve problems. Since teaching myself Python in 2019, I've been improving my skills and learning new ones.
 
 I enjoy a making variety of different types of software, ranging from scripts for my Linux desktop to games and fullstack multiplatform applications.
 
